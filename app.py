@@ -8,7 +8,7 @@ import csv
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
 BASE_DIR = Path(__file__).parent
-SKILL_SCRIPTS = BASE_DIR / "integrations" / "hr-recruitment-assistant" / "scripts"
+SKILL_SCRIPTS = BASE_DIR / "scripts"
 
 def run_script(script_name, args=[]):
     script_path = SKILL_SCRIPTS / script_name
