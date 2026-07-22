@@ -1,0 +1,47 @@
+{
+  "cargo": "Conductor de Carga",
+  "descripcion": "Transporte de mercancías a nivel nacional o regional, cumpliendo con normas de seguridad y tiempos de entrega.",
+  "mandatory_filters": [
+    "Licencia de conducir tipo C2 vigente",
+    "No tener antecedentes de suspensions de licencia en los últimos 2 años",
+    "Experiencia mínima de 2 años conducción de vehículos de carga",
+    "Disponibilidad para viajes fuera de la ciudad y horario nocturno"
+  ],
+  "competencias_requeridas": {
+    "educacion": {
+      "peso": 10,
+      "requisitos": [
+        "Bachillerato completo",
+        "Curso de conducción defensiva o similar"
+      ]
+    },
+    "experiencia": {
+      "peso": 35,
+      "requisitos": [
+        "Experiencia en transporte de carga seca o refrigerada",
+        "Conocimiento de rutas nacionales y peajes",
+        "Manejo de documentación de transporte (guías, manifiestos)",
+        "Experiencia en carga y descarga segura"
+      ]
+    },
+    "technical_skills": {
+      "peso": 30,
+      "requisitos": [
+        "Manejo de camión de 3.5 toneladas o más",
+        "Uso de tacógrafo y registro de horas de manejo",
+        "Conocimiento básico de mecánica del vehículo",
+        "Familiaridad con apps de rastreo GPS"
+      ]
+    },
+    "soft_skills": {
+      "peso": 25,
+      "requisitos": [
+        "Responsabilidad y puntualidad",
+        "Capacidad de reacción ante imprevistos en la vía",
+        "Buenas relaciones interpersonales con clientes y autoridades",
+        "Tolerancia al estrés y largos periodos de concentración",
+        "Actitud de servicio y orientación a la seguridad"
+      ]
+    }
+  }
+}

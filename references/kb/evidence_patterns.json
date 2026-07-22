@@ -1,0 +1,15 @@
+{
+  "evidence_map": {
+    "Coordinó inventarios": ["Control", "Orden", "Excel", "ERP", "Logística"],
+    "Gestión de proyectos": ["Planificación", "Ejecución", "Control de riesgos", "Comunicación", "Liderazgo"],
+    "Atención al cliente": ["Empatía", "Resolución de problemas", "Comunicación efectiva", "Orientación al servicio"],
+    "Análisis de datos": ["Interpretación", "Estadística", "Excel", "Power BI", "SQL"],
+    "Desarrollo de software": ["Programación", "Algoritmos", "Testing", "Control de versiones", "Diseño de sistemas"],
+    "Elaboración de reportes": ["Redacción", "Análisis", "Sintetización", "Presentación de datos"],
+    "Gestión de inventario": ["Control de stock", "Rotación", "Auditoría", "Logística"],
+    "Negociación": ["Persuasión", "Estrategia", "Comunicación", "Cierre de acuerdos"],
+    "Supervisión de equipos": ["Liderazgo", "Feedback", "Desarrollo de talento", "Planeación de turnos"],
+    "Mantenimiento preventivo": ["Planeación", "Inspección", "Registro de fallas", "Seguridad industrial"]
+  },
+  "notes": "Cada frase de experiencia se mapea a competencias concretas. El motor de evidencias busca estas frases (o variantes) en el texto del CV y otorga los puntos de las competencias asociadas."
+}

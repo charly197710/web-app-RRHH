@@ -1,0 +1,12 @@
+{
+  "weights": {
+    "education": 15,
+    "experience": 30,
+    "technical_skills": 35,
+    "soft_skills": 20
+  },
+  "mandatory_filters": true,
+  "minimum_score": 70,
+  "score_scale": "0-100",
+  "notes": "Los pesos son porcentajes del puntaje total. Se pueden ajustar por puesto."
+}

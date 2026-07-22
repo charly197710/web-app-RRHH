@@ -1,0 +1,47 @@
+{
+  "cargo": "Auxiliar Contable",
+  "descripcion": "Apoyo en el área contable: registro de asientos, conciliaciones, elaboración de reportes básicos y apoyo en cierre mensual.",
+  "mandatory_filters": [
+    "Técnico o tecnólogo en Contabilidad, Finanzas o afín",
+    "Experiencia mínima de 1 año en funciones contables básicas",
+    "Manejo de software contable (QuickBooks, SIAGI, SAP Business One o similar)",
+    "Disponibilidad para trabajo de oficina full-time"
+  ],
+  "competencias_requeridas": {
+    "educacion": {
+      "peso": 20,
+      "requisitos": [
+        "Técnico en Contabilidad, Auditoría o Finanzas",
+        "Cursos de NIF o IFRS básicos"
+      ]
+    },
+    "experiencia": {
+      "peso": 30,
+      "requisitos": [
+        "Registro de ingresos y egresos",
+        "Conciliación bancaria y de cuentas por pagar/cobrar",
+        "Elaboración de balances de comprobación",
+        "Soporte en procesos de cierre mensual"
+      ]
+    },
+    "technical_skills": {
+      "peso": 30,
+      "requisitos": [
+        "Manejo de sistemas contables computarizados",
+        "Excel intermedio (tablas dinámicas, fórmulas)",
+        "Conocimiento de facturación electrónica",
+        "Uso de herramientas de pago electrónico (PSE, transferencias)"
+      ]
+    },
+    "soft_skills": {
+      "peso": 20,
+      "requisitos": [
+        "Atención al detalle y precisión",
+        "Organización y manejo de plazos",
+        "Ética y confidencialidad de información financiera",
+        "Trabajo en equipo y comunicación clara",
+        "Proactividad para identificar inconsistencias"
+      ]
+    }
+  }
+}

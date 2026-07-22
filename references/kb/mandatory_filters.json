@@ -1,0 +1,33 @@
+{
+  "Conductor Carga": [
+    "Licencia C2 vigente",
+    "Sin licencia suspendida",
+    "Experiencia mínima 2 años en transporte de carga",
+    "Conocimiento de normas de tránsito y seguridad vial",
+    "Disponibilidad para viajes fuera de la ciudad"
+  ],
+  "Secretaria Gerencia": [
+    "Experiencia mínima 3 años en apoyo a alta gerencia",
+    "Manejo de agenda y reuniones",
+    "Redacción de correspondencia formal",
+    "Dominio de Office avanzado (Word, Excel, PowerPoint)",
+    "Disponibilidad para horario flexible",
+    "Buena presencia y protocolo"
+  ],
+  "Auxiliar Contable": [
+    "Técnico en Contabilidad o similar",
+    "Experiencia mínima 1 año en registro contable",
+    "Conocimiento de NIFF o IFRS para PYMES",
+    "Manejo de software contable (Contpaqi, QuickBooks, SAP)",
+    "Precisión y atención al detalle",
+    "Capacidad para elaborar estados financieros básicos"
+  ],
+  "Comercial": [
+    "Experiencia mínima 2 años en ventas B2B o B2C",
+    "Historial de cumplimiento de metas",
+    "Habilidades de negociación y cierre",
+    "Conocimiento de CRM (HubSpot, Salesforce, Zoho)",
+    "Disponibilidad para viajar y prospección",
+    "Actitud proactiva y orientación al resultado"
+  ]
+}

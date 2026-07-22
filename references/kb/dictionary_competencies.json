@@ -1,0 +1,18 @@
+{
+  "competencias": {
+    "tecnicas": [
+      {"nombre": "Manejo de Excel avanzado", "descripcion": "Uso de tablas dinámicas, funciones avanzadas (VLOOKUP, INDEX/MATCH), macros básicas.", "nivel": "intermedio-avanzado"},
+      {"nombre": "Conocimiento de ERP", "descripcion": "Experiencia con sistemas como SAP, Oracle, Microsoft Dynamics.", "nivel": "variable según puesto"},
+      {"nombre": "Programación en Python", "descripcion": "Capacidad para escribir scripts, automatizar tareas, análisis de datos.", "nivel": "básico-avanzado"},
+      {"nombre": "Diseño gráfico básico", "descripcion": "Uso de Canva, Photoshop o Illustrator para material de comunicación.", "nivel": "básico"},
+      {"nombre": "Idioma Inglés", "descripcion": "Lectura, escritura y conversación técnica.", "nivel": "intermedio-avanzado según requerimiento"}
+    ],
+    "blandas": [
+      {"nombre": "Liderazgo de equipos", "descripcion": "Capacidad para guiar, motivar y desarrollar a subordinados.", "nivel": "según senioridad"},
+      {"nombre": "Pensamiento analítico", "descripcion": "Habilidad para descomponer problemas y llegar a soluciones basadas en datos.", "nivel": "alto"},
+      {"nombre": "Comunicación efectiva", "descripcion": "Expresar ideas claramente por escrito y verbalmente.", "nivel": "alto"},
+      {"nombre": "Adaptabilidad al cambio", "descripcion": "Flexibilidad para aprender nuevos procesos y tecnologías rápidamente.", "nivel": "alto"},
+      {"nombre": "Orientación al resultado", "descripcion": "Enfocarse en cumplir metas y mejorar indicadores clave.", "nivel": "alto"}
+    ]
+  }
+}

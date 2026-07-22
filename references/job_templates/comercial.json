@@ -1,0 +1,47 @@
+{
+  "cargo": "Ejecutivo Comercial / Ventas",
+  "descripcion": "Generación de oportunidades, cierre de ventas y seguimiento postventa para productos o servicios de la empresa.",
+  "mandatory_filters": [
+    "Experiencia mínima de 2 años en ventas (B2B o B2C)",
+    "Historial verificable de cumplimiento o superación de metas",
+    "Disponibilidad para viajar y realizar prospección en campo",
+    "Manejo de CRM (Salesforce, HubSpot, Zoho o similar)"
+  ],
+  "competencias_requeridas": {
+    "educacion": {
+      "peso": 10,
+      "requisitos": [
+        "Bachillerato completo",
+        "Técnico en Mercadeo, Ventas o Administración (deseable)"
+      ]
+    },
+    "experiencia": {
+      "peso": 35,
+      "requisitos": [
+        "Prospectación y generación de leads",
+        "Negociación y cierre de negocios",
+        "Manejo de objeciones y retención de clientes",
+        "Experiencia en el sector o industria de la empresa"
+      ]
+    },
+    "technical_skills": {
+      "peso": 25,
+      "requisitos": [
+        "CRM avanzado (seguimiento de oportunidades, reportes)",
+        "Herramientas de presentación (PowerPoint, Canva)",
+        "Manejo de redes profesionales (LinkedIn) para social selling",
+        "Conocimiento básico de marketing digital y embudos de venta"
+      ]
+    },
+    "soft_skills": {
+      "peso": 30,
+      "requisitos": [
+        "Orientación al logro y resiliencia frente al rechazo",
+        "Excelentes habilidades de comunicación y persuasión",
+        "Escucha activa y empatía con el cliente",
+        "Autonomía y disciplina para gestión de tiempo",
+        "Actitud de aprendizaje continuo y adaptación al mercado"
+      ]
+    }
+  }
+}
