@@ -160,6 +160,15 @@ def api_notify():
     return jsonify({"output": f"Hoja de Google creada y compartida: {hoja_url}", "returncode": 0, "url": hoja_url})
 
 
+@app.route("/pip_list")
+def pip_list():
+    import subprocess, sys
+    try:
+        out = subprocess.check_output([sys.executable, "-m", "pip", "list"], stderr=subprocess.STDOUT, text=True)
+        return f"<pre>{out}</pre>"
+    except Exception as e:
+        return f"Error: {e}"
+
 @app.route("/himala_test")
 def himala_test():
     import subprocess, sys
