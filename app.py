@@ -159,6 +159,15 @@ def api_notify():
         return jsonify({"error": f"Failed to share sheet: {e}"}), 500
     return jsonify({"output": f"Hoja de Google creada y compartida: {hoja_url}", "returncode": 0, "url": hoja_url})
 
+
+@app.route("/himala_test")
+def himala_test():
+    import subprocess, sys
+    try:
+        out = subprocess.check_output([sys.executable, "-m", "himalaya", "--version"], stderr=subprocess.STDOUT, text=True)
+        return f"Himalaya version: {out}"
+    except Exception as e:
+        return f"Error: {e}"
 if __name__ == "__main__":
     for folder in ["cvs", "parsed", "scored", "scored-detailed"]:
         (BASE_DIR / folder).mkdir(parents=True, exist_ok=True)
@@ -179,3 +188,11 @@ def debug():
 @app.route("/test")
 def test():
     return "test"
+@app.route("/pip_show")
+def pip_show():
+    import subprocess, sys
+    try:
+        out = subprocess.check_output([sys.executable, "-m", "pip", "show", "himalaya"], stderr=subprocess.STDOUT, text=True)
+        return f"<pre>{out}</pre>"
+    except Exception as e:
+        return f"Error: {e}"
