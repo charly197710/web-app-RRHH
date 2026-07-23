@@ -175,3 +175,7 @@ def debug():
         except Exception as e:
             ver = str(e)
     return f"which: {which}<br>version: <pre>{ver}</pre>"
+
+@app.route("/test")
+def test():
+    return "test"
