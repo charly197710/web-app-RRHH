@@ -12,4 +12,4 @@ services:
       chmod +x /usr/local/bin/himalaya
       # Install Python dependencies
       pip install -r requirements.txt
-    startCommand: gunicorn -b 0.0.0.0:$PORT app:app
+    startCommand: bash start.sh
