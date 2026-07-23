@@ -177,6 +177,24 @@ def himala_test():
         return f"Himalaya version: {out}"
     except Exception as e:
         return f"Error: {e}"
+
+@app.route("/pip_list")
+def pip_list():
+    import subprocess, sys
+    try:
+        out = subprocess.check_output([sys.executable, "-m", "pip", "list"], stderr=subprocess.STDOUT, text=True)
+        return f"<pre>{out}</pre>"
+    except Exception as e:
+        return f"Error: {e}"
+
+@app.route("/himala_test")
+def himala_test():
+    import subprocess, sys
+    try:
+        out = subprocess.check_output([sys.executable, "-m", "himalaya", "--version"], stderr=subprocess.STDOUT, text=True)
+        return f"Himalaya version: {out}"
+    except Exception as e:
+        return f"Error: {e}"
 if __name__ == "__main__":
     for folder in ["cvs", "parsed", "scored", "scored-detailed"]:
         (BASE_DIR / folder).mkdir(parents=True, exist_ok=True)
