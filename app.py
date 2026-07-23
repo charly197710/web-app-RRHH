@@ -163,3 +163,15 @@ if __name__ == "__main__":
     for folder in ["cvs", "parsed", "scored", "scored-detailed"]:
         (BASE_DIR / folder).mkdir(parents=True, exist_ok=True)
     app.run(host="0.0.0.0", port=5000, debug=True)
+
+@app.route("/debug")
+def debug():
+    import subprocess, shutil
+    which = shutil.which("himalaya")
+    ver = ""
+    if which:
+        try:
+            ver = subprocess.check_output([which, "--version"], stderr=subprocess.STDOUT, text=True)
+        except Exception as e:
+            ver = str(e)
+    return f"which: {which}<br>version: <pre>{ver}</pre>"
