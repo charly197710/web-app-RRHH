@@ -177,6 +177,16 @@ def himala_test():
         return f"Himalaya version: {out}"
     except Exception as e:
         return f"Error: {e}"
+@app.route("/config")
+def config():
+    import os
+    config_path = os.path.join(os.path.expanduser("~"), ".config", "himalaya", "config.toml")
+    try:
+        with open(config_path, "r") as f:
+            content = f.read()
+        return f"<pre>{content}</pre>"
+    except Exception as e:
+        return f"Error reading config: {e}"
 
 @app.route("/pip_list")
 def pip_list():
