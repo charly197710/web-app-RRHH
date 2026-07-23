@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: hr-recruitment-senior
+    env: python
+    plan: free
+    buildCommand: |
+      # Install himalaya binary (precompiled)
+      HIMALAYA_VERSION=1.2.0
+      curl -L -o /tmp/himalaya.tgz \
+        https://github.com/pimalaya/himalaya/releases/download/v${HIMALAYA_VERSION}/himalaya.x86_64-linux.tgz
+      tar -xzf /tmp/himalaya.tgz -C /usr/local/bin himalaya
+      chmod +x /usr/local/bin/himalaya
+      # Install Python dependencies
+      pip install -r requirements.txt
+    startCommand: gunicorn -b 0.0.0.0:$PORT app:app
