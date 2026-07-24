@@ -3,6 +3,10 @@
 # Add user's local bin to PATH (where pip installs scripts)
 export PATH="$PATH:$HOME/.local/bin"
 
+# Debug: show PATH and himalaya location
+echo "PATH=$PATH"
+echo "Himalaya location: $(which himalaya)"
+
 # Ensure config directory exists
 mkdir -p "$HOME/.config/himalaya"
 
